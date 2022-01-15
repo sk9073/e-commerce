@@ -8,7 +8,7 @@ import './App.css';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component.jsx';
 import CheckoutPage from './pages/checkout/checkout.component';
-import Header from 'D:/project/project_e_comm/src/componenets/header/header.component.jsx';
+import Header from '../src/componenets/header/header.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 
 import { auth , createUserProfileDocument} from './firebase/firebase.utils';
